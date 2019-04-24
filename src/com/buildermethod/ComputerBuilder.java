@@ -24,7 +24,7 @@ public class ComputerBuilder {
 		return this;
 	}
 	
-	public Computer getComputer() {
+	public Computer build() {
 		return  new Computer(brand, ram, screensize, storage);
 	}
 	

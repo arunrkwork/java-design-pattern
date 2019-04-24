@@ -7,7 +7,7 @@ public class BuilderMain {
 		Computer computer = new ComputerBuilder()
 								.setBrand("Dell")
 								.setRam(8)
-								.getComputer();
+								.build();
 		
 		System.out.print(computer);
 		
